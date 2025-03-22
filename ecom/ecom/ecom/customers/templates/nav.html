@@ -1,0 +1,14 @@
+<nav>
+    <div>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/add-book/">Add Book</a>
+    </div>
+    
+    <div class="search-bar">
+        <form action="{% url 'home' %}">
+            <input type="text" placeholder="Search Products..." name="SearchKey">
+            <input type="submit" value="Search">
+        </form>
+    </div>
+</nav>
